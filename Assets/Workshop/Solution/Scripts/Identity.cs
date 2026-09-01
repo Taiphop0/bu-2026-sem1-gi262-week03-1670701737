@@ -16,7 +16,7 @@ namespace Solution
 
         public void PrintInfo()
         {
-            Debug.Log("tell me your " + Name);
+            Debug.Log("Name: {name}");
         }
 
         public virtual void Hit()
